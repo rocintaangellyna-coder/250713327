@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Form Registrasi Mahasiswa</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Form Registrasi Data Mahasiswa</h1>
+            <p>Silakan lengkapi data diri Anda pada formulir berikut.</p>
+        </div>
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <table class="form-table">
+
+                <tr>
+                    <td class="label-column">
+                        <label for="namamhs">
+                            <strong>Nama Lengkap</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <input type="text"
+                               id="namamhs"
+                               name="namamhs"
+                               size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <strong>Jenis Kelamin</strong>
+                    </td>
+
+                    <td>
+                        <input type="radio"
+                               id="laki"
+                               name="jk"
+                               value="Laki-Laki" />
+
+                        <label for="laki">Laki-Laki</label>
+
+                        <input type="radio"
+                               id="perempuan"
+                               name="jk"
+                               value="Perempuan" />
+
+                        <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <label for="prodi">
+                            <strong>Program Studi</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <select id="prodi" name="prodi">
+                            <option value="Informatika">Informatika</option>
+                            <option value="Sistem Informasi">
+                                Sistem Informasi
+                            </option>
+                            <option value="Teknik Industri">
+                                Teknik Industri
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <label for="email">
+                            <strong>Email</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <input type="text"
+                               id="email"
+                               name="email"
+                               size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <label for="telepon">
+                            <strong>Nomor Telepon</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <input type="text"
+                               id="telepon"
+                               name="telepon"
+                               size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <label for="password">
+                            <strong>Kata Sandi</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <input type="password"
+                               id="password"
+                               name="password"
+                               size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <label for="photo">
+                            <strong>Foto Profil</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <input type="file"
+                               id="photo"
+                               name="photo"
+                               size="18"
+                               accept="image/gif, image/jpeg, image/png" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column">
+                        <label for="namasmu">
+                            <strong>Asal Sekolah</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <input type="text"
+                               id="namasmu"
+                               name="namasmu"
+                               size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column top">
+                        <strong>Hal Favorit</strong>
+                    </td>
+
+                    <td>
+
+                        <div class="favorite-section">
+
+                            <p class="category-title">
+                                Musik yang Disukai
+                            </p>
+
+                            <input type="checkbox"
+                                   id="musik1"
+                                   name="musik"
+                                   value="Pop" />
+
+                            <label for="musik1">Pop</label>
+
+                            <input type="checkbox"
+                                   id="musik2"
+                                   name="musik"
+                                   value="Rock" />
+
+                            <label for="musik2">Rock</label>
+
+                            <input type="checkbox"
+                                   id="musik3"
+                                   name="musik"
+                                   value="Jazz" />
+
+                            <label for="musik3">Jazz</label>
+
+                        </div>
+
+                        <div class="favorite-section">
+
+                            <p class="category-title">
+                                Film Favorit
+                            </p>
+
+                            <input type="checkbox"
+                                   id="film1"
+                                   name="film"
+                                   value="Drama" />
+
+                            <label for="film1">Drama</label>
+
+                            <input type="checkbox"
+                                   id="film2"
+                                   name="film"
+                                   value="Action" />
+
+                            <label for="film2">Action</label>
+
+                            <input type="checkbox"
+                                   id="film3"
+                                   name="film"
+                                   value="Sci-Fi" />
+
+                            <label for="film3">Sci-Fi</label>
+
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label-column top">
+                        <label for="resume">
+                            <strong>Tentang Diri</strong>
+                        </label>
+                    </td>
+
+                    <td>
+                        <textarea id="resume"
+                                  name="resume"
+                                  rows="10"
+                                  cols="23"></textarea>
+
+                        <p class="helper-text">
+                            Tuliskan deskripsi singkat mengenai diri Anda.
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="button-area">
+
+                        <input type="submit"
+                               name="simpan"
+                               value="Simpan Data" />
+
+                        <input type="reset"
+                               name="reset"
+                               value="Reset" />
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+        <div class="footer">
+            <p>Form Registrasi Mahasiswa</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

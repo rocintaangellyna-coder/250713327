@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f7;
+    color: #333333;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    margin-bottom: 8px;
+    font-size: 28px;
+    color: #1d4ed8;
+}
+
+.header p {
+    margin-top: 0;
+    color: #666666;
+    font-size: 14px;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d6dce5;
+    overflow: hidden;
+}
+
+.form-table tr {
+    border-bottom: 1px solid #d6dce5;
+}
+
+.form-table tr:last-child {
+    border-bottom: none;
+}
+
+.form-table td {
+    padding: 14px 16px;
+    vertical-align: middle;
+}
+
+.label-column {
+    width: 32%;
+    background-color: #f5f7fa;
+    color: #1f2937;
+}
+
+.top {
+    vertical-align: top !important;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+select {
+    width: 95%;
+    cursor: pointer;
+}
+
+textarea {
+    width: 95%;
+    resize: vertical;
+    min-height: 130px;
+}
+
+input[type="file"] {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.favorite-section {
+    margin-bottom: 18px;
+    padding: 12px;
+    background-color: #f8fafc;
+    border-left: 4px solid #1d4ed8;
+    border-radius: 5px;
+}
+
+.favorite-section:last-child {
+    margin-bottom: 0;
+}
+
+.category-title {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    color: #1d4ed8;
+}
+
+.helper-text {
+    margin: 6px 0 0 0;
+    font-size: 12px;
+    color: #777777;
+}
+
+.button-area {
+    text-align: center;
+    background-color: #f8fafc;
+    padding: 20px !important;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 24px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #1d4ed8;
+    color: #ffffff;
+}
+
+input[type="reset"] {
+    background-color: #64748b;
+    color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888888;
+    font-size: 12px;
+}
